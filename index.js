@@ -14,9 +14,3 @@ inputMyCheck2.addEventListener('change', function () {
   console.log('mycheck2 is', this.checked);
 });
 
-const inputMyCheck3 = document.getElementById('mycheck3');
-console.log('mycheck3 is', inputMyCheck3.checked);
-
-inputMyCheck3.addEventListener('change', function () {
-  console.log('mycheck3 is', this.checked);
-});
